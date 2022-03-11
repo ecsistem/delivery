@@ -4,17 +4,21 @@ import './Header.css'
 
 import { HiMenuAlt2, HiSearch } from 'react-icons/hi'
 import { MdLocationPin } from 'react-icons/md'
+import MenuButton from "../components/MenuButton";
+import SearchButton from "../components/SearchButton";
+import Logo from "../components/Logo";
+import SliderCategory from "../components/SliderCategory";
 
 const Header = () => {
   return (
     <>
       <div className="container">
             <div className="header-buttons">
-                <button><HiMenuAlt2/></button>
-                <button><HiSearch/></button>
+                <MenuButton><HiMenuAlt2/></MenuButton>
+                <SearchButton><HiSearch/></SearchButton>
             </div>
             <div className="header">
-                <div className="logo"></div>
+                <Logo/>
                 <div className="description">
                     <h1>Cheddar House</h1>
                     <h3><MdLocationPin/>Av. Joelson Silva, 5512</h3>
@@ -23,6 +27,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <SliderCategory></SliderCategory>
       </div>
     </>
   );

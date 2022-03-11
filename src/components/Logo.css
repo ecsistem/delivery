@@ -1,0 +1,9 @@
+.logo {
+    background-image: url('../images/logo.jpg');
+    border: 3px #fff solid;
+    border-radius: 100%;
+    width: 8.13rem;
+    height: 8.13rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

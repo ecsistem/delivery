@@ -18,39 +18,15 @@
     justify-content: space-between;
     max-height: 64px;
     width: 100%;
-    padding: 0 1%;
-}
-
-.header-buttons button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    width: 4rem;
-    height: 4rem;
-    font-size: 38px;
-    color: #fff;
-    background-color: transparent;
-    border: none;
+    padding: 3% 3%;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 1%;
+    margin-top: 15px;
+    padding: 0 3%;
     width: 100%;
-}
-
-.logo {
-    background-image: url('../images/logo.jpg');
-    border: 3px #fff solid;
-    border-radius: 100%;
-    width: 8.13rem;
-    height: 8.13rem;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .description {
@@ -58,6 +34,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     width: 55%;
+    padding-top: 10px;
 }
 
 .header h1 {
