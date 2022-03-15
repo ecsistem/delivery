@@ -1,5 +1,14 @@
-.slider-container {
-    display: flex;
-    overflow-x: scroll;
+@media(max-width: 420px) {
+    .slider-container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .slider-container {
+        display: flex;
+        overflow-x: scroll;
+        height: 1.8rem;
+        margin-top: 2rem;
+    }
 }
+
 

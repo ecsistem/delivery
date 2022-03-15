@@ -7,7 +7,6 @@ import { MdLocationPin } from 'react-icons/md'
 import MenuButton from "../components/MenuButton";
 import SearchButton from "../components/SearchButton";
 import Logo from "../components/Logo";
-import SliderCategory from "../components/SliderCategory";
 
 const Header = () => {
   return (
@@ -27,7 +26,6 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <SliderCategory></SliderCategory>
       </div>
     </>
   );
