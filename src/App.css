@@ -8,6 +8,7 @@
 
 html ,body, .app, #root {
     width: 100%;
+    font-size: 10px;
 }
 
 body {
