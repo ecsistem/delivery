@@ -1,7 +1,7 @@
 
 @media(max-width:420px) {
     .warning-container {
-        padding: 0 0.5rem;
+        padding: 0 1rem;
         align-items: center;
         justify-content: center;
     }
@@ -21,7 +21,7 @@
 
     .warning span {
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 500;
         font-family: 'DM Sans', sans-serif;
         width: 100%;
         text-align: center;

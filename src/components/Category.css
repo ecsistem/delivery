@@ -1,0 +1,14 @@
+@media(max-width:420px) {
+    .category-container h1 {
+        font-family: 'DM Sans', sans-serif;
+        color: #565656;
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-left: 2%;
+    }
+
+    .category-container {
+        max-width: 420px;
+        padding: 0 1.5rem;
+    }
+}
