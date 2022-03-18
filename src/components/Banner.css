@@ -1,0 +1,42 @@
+@media(max-width:420px) {
+    .banner-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .banner-container {
+        display: flex;
+        max-height: 20rem;
+        margin-top: 2.5rem;
+        overflow-x: scroll;
+        border-radius: 0.5rem;
+    }
+
+    .banner {
+        background-color: brown;
+        min-height: 20rem;
+        min-width: 27.6rem;
+        background-image: url('../images/banner1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner2 {
+        background-color: rgb(91, 165, 42);
+        min-height: 20rem;
+        min-width: 27.6rem;
+        background-image: url('../images/banner2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner3 {
+        background-color: rgb(42, 44, 165);
+        min-height: 20rem;
+        min-width: 27.6rem;
+        background-image: url('../images/banner3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+}

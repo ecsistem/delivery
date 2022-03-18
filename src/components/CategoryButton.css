@@ -1,10 +1,12 @@
 @media(max-width: 420px) {
     .category-button {
+        font-family: 'DM Sans', sans-serif;
         padding: 0.8rem 1.5rem;
         margin: 0 0.5rem;
         background-color: white;
-        color: #444;
-        border: 1px solid #dcdcdd;
+        color: #565656;
+        border: 1px solid #E9E9E9;
         border-radius: 0.5rem;
+        font-size: 14px;
     }
 }

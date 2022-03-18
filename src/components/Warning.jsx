@@ -7,7 +7,7 @@ const Warning = ({ children }) => {
         <>
             <div className='warning-container'>
                 <div className='warning'>
-                    {children}
+                    <span>Compra mínima acima de R$20,00 reais</span>
                 </div>
             </div>
         </>

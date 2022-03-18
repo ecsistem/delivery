@@ -4,12 +4,14 @@ import './App.css';
 import Header from './sections/Header';
 import SliderCategory from './components/SliderCategory';
 import Warning from './components/Warning';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Warning>Compra mínima acima de R$20,00 reais</Warning>
+      <Warning></Warning>
+      <Banner></Banner>
       <SliderCategory></SliderCategory>
     </div>
   );
