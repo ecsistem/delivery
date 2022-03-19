@@ -5,10 +5,11 @@
     
     .slider-container {
         display: flex;
+        background-color: #F3F3F3;
         overflow-x: scroll;
-        height: 4rem;
+        height: 6rem;
         align-items: center;
-        margin: 2.5rem 0;
+        margin: 1.5rem 0;
         padding: 0 1rem;
     }
 }
