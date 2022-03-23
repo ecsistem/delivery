@@ -1,26 +1,36 @@
-import React from 'react'
+import React from "react";
 
-import './Category.css'
+import "./Category.css";
 
-import Item from './Item';
+import Item from "./Item";
 
 const Category = ({ itens }) => {
-    const dados = Object.keys(itens)
+  const categorys = [];
+  const arrayItem = [];
 
-    return ( 
-        <>
-            <div className='category-container'>
-                <h1>Promoções</h1>
-                {
-                    dados.map((item) => (
-                        <Item
-                            item={item}
-                        />
-                    ))
-                }
+  for (let c = 0; c < itens.length; c++) {
+    categorys.push(itens[c]);
+  }
+
+  categorys.map((category) =>
+    Object.keys(category).forEach((item) => {
+      arrayItem.push(category[item]);
+    })
+  );
+  console.log(categorys);
+
+  return (
+    <>
+      
+        {categorys.map((category) => (
+            <div className="category-container">
+                <h1>{category.title}</h1>
+                <Item category={category} />
             </div>
-        </>
-     );
-}
- 
+        ))}
+      
+    </>
+  );
+};
+
 export default Category;
